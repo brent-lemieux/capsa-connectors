@@ -1,8 +1,3 @@
-# Capsa Connectors
-Currently, `capsa-connectors` supports Aspire connections to Google BigQuery.
-
-## Example usage
-```python
 from capsa_connectors.aspire import (
     AspireTable,
     establish_gbq_connection,
@@ -44,4 +39,3 @@ def pipeline():
 
 # Run pipeline.
 pipeline()
-```
